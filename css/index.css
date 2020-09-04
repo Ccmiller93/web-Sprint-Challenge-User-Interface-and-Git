@@ -65,15 +65,21 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* this is for the header and header nav */
 header {
     width: 100%;
 }
 header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
 
-}
 header nav a {
-    
+    text-decoration: none;
+    color:black;
 }
+/* this is for the footer and the footer nav */
 footer {
     width: 100%;
     background: black;
@@ -94,6 +100,10 @@ footer nav a {
 /* ends reset and general styles */
 
 /* this is for index  */
+#superbox {
+    width: 75%;
+    margin: 0 auto;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -132,12 +142,16 @@ footer nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;   
+}
+
+.one {
+    background-color: teal;
 }
 
 .bottom-content {
@@ -160,6 +174,38 @@ footer nav a {
     width: 75%;
     margin: 0 auto;
 }
+#about  p {
+    text-align: left;
+    width:75%;
+}
+#strat a {
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 30px;
+    padding:1%;
+}
+#how  a {
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 30px;
+    padding:1%;
+}
+#places  a {
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 30px;
+    padding:1%; 
+}
+#collab  a {
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    border-radius: 30px;
+    padding: 1% 
+}
 #about-body {
     width:1280px;
 }
@@ -180,4 +226,12 @@ footer nav a {
 .parent div {
     width: 35%;
     
+}
+.container p {
+    text-align: left;
+    width:75%;
+}
+#lets {
+    padding:2%;
+    width:85%;
 }
