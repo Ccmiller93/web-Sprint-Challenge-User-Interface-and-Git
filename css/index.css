@@ -65,7 +65,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    width: 100%;
+}
+header nav {
 
+}
+header nav a {
+    
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+/* ends reset and general styles */
+
+/* this is for index  */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -125,29 +153,31 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* this ends index */
 
-footer {
-    width: 100%;
-    background: black;
+/* this is for about  */
+#bigbox {
+    width: 75%;
+    margin: 0 auto;
 }
+#about-body {
+    width:1280px;
+}
+.about-page {
+    width:1280px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
 
-footer nav {
-    width: 60%;
+}
+.parent {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    width:1280px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
 }
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-.middle-content .boxes .box .box3{
-    background-color: cadetblue;
-}
-.container .about-page {
-    display: flex;
+.parent div {
+    width: 35%;
     
 }
