@@ -41,6 +41,7 @@ Edit this document to include your answers after each question. Make sure to lea
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
+version control, as well as merging. It allows different devs to work on parts at the same time. Also it allows for easier implemintation of previous versions. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
