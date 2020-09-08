@@ -73,6 +73,7 @@ header nav {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 header nav a {
@@ -150,9 +151,38 @@ footer nav a {
     justify-content: center;   
 }
 
+/*this is for the hoome page box colors*/
 .one {
     background-color: teal;
 }
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen;
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue; 
+}
+/*end of color boxes*/
 
 .bottom-content {
     display: flex;
@@ -174,41 +204,15 @@ footer nav a {
     width: 75%;
     margin: 0 auto;
 }
-#about  p {
-    text-align: left;
-    width:75%;
-}
-#strat a {
-    text-decoration: none;
-    color:black;
-    border:1px solid black;
-    border-radius: 30px;
-    padding:1%;
-}
-#how  a {
-    text-decoration: none;
-    color:black;
-    border:1px solid black;
-    border-radius: 30px;
-    padding:1%;
-}
-#places  a {
-    text-decoration: none;
-    color:black;
-    border:1px solid black;
-    border-radius: 30px;
-    padding:1%; 
-}
-#collab  a {
-    text-decoration: none;
-    color:black;
-    border:1px solid black;
-    border-radius: 30px;
-    padding: 1% 
-}
+
 #about-body {
     width:1280px;
 }
+#about {
+    width:80%;
+    border-bottom: 1px dashed black;
+}
+
 .about-page {
     width:1280px;
     flex-wrap: wrap;
@@ -225,7 +229,8 @@ footer nav a {
 }
 .parent div {
     width: 35%;
-    
+    border-bottom: 1px dashed black; 
+    padding:1%;   
 }
 .container p {
     text-align: left;
@@ -234,4 +239,19 @@ footer nav a {
 #lets {
     padding:2%;
     width:85%;
+}
+.parent a {
+    width: 25%;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding:2% 4%;
+    margin: 10% 10% 10% 0%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.parent p {
+    width: 85%;
+    padding:2%;
+    margin:2%;
 }
